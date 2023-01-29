@@ -14,7 +14,7 @@ img {
   max-width: 100%;
 }
 
-header {
+nav {
   background-color: rgb(221, 219, 219);
   padding: 0.5rem 1rem; 
 }
@@ -70,7 +70,7 @@ header {
 .nav {
   background-color: #fff;
   padding: 3px 5px;
-  display: flex;
+  display: none;
   flex-direction: column;
   border-radius: 10px;
 }
@@ -83,5 +83,66 @@ header {
 
 .nav a:hover {
   background-color: rgb(221, 219, 219);
+}
+
+/* masthead */
+.masthead {
+  padding: 0.5rem 1rem; 
+}
+
+.about {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.about-detail p {
+  font-weight: 500;
+}
+
+.about-detail h1 {
+  font-size: 29px;
+  letter-spacing: 0.1px;
+  margin: 0.5rem 0;
+}
+
+.about-detail h1 span {
+  color: red;
+}
+
+.about-detail a {
+  display: inline-block;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 0.3rem 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* about media */
+.cover {
+  
+  position: relative;
+  background: red;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;   
+}
+
+.circle {
+  position: absolute;
+  top: 15px;
+  left: 15px; 
+  border: 4px solid #fff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;   
+}
+
+.image-cover {
+  position: absolute;
+  top: 40px;
+  right: -25px;
 }
 
